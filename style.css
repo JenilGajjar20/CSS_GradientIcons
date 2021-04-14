@@ -98,3 +98,10 @@ ul li:nth-child(4)::after,
 ul li:nth-child(4)::before{
     background: linear-gradient(45deg, #f7ea00, #be0000);
 }
+
+@media screen and (max-width:500px){
+    ul li{
+        width: 85px;
+        height: 95px;
+    }
+}
